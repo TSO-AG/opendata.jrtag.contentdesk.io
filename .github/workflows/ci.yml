@@ -80,5 +80,5 @@ jobs:
       - name: Run Python script
         run: python start.py
       - name: Create CNAME file
-        run: echo "opendata.sgbt.contentdesk.io" > ./docs/CNAME
+        run: echo "opendata.jrtag.contentdesk.io" > ./docs/CNAME
       - run: mkdocs gh-deploy --force
